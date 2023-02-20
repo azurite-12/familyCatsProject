@@ -98,3 +98,14 @@ footer {
     }
     #Inicio a:active {text-decoration: underline;}
 }
+
+@media only screen and (max-width: 365px) {
+    html {margin-top: -1em;}
+    header h1 {
+        font-size: 2.5em;
+        margin-bottom: 0.5em;
+    }
+    header a {
+        margin-top: 0.5em;
+    }
+}
